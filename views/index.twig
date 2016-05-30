@@ -1,0 +1,19 @@
+{# Index Template #} 
+
+{% extends 'base.twig' %}
+
+{% block content %}
+    
+    <section class="row">
+        <article class="post col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+            <!-- loop the query from context--> 
+            {% for post in posts %}
+            
+            <h1 class="text-center"> {{ post.title }} </h1>
+            <p> {{ post.get_content() }} </p>
+            
+            {% endfor %}
+        </article>
+    </section>
+    
+{% endblock %}

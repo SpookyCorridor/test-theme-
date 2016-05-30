@@ -1,0 +1,15 @@
+/*
+Theme Name: Kake Portfolio Theme
+Author: Dylan
+Author URI: http://spookycorridor.in/ 
+Description: A simple, responsive portfolio theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, white, light, one-column, two-columns, flexible-width, fluid, responsive
+
+You are welcome to use this privately or commercially.
+*/
+.post {
+  padding: 7px;
+  color: #333; }
